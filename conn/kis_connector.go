@@ -9,6 +9,7 @@ import (
 	"sync"
 )
 
+// 计算数据流流中间状态持久存储 及 连接器
 type KisConnector struct {
 	// Connector ID
 	CId string
